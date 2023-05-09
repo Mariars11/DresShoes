@@ -5,3 +5,23 @@
     color: white;
     font-weight: bolder;;
 }
+
+.div-shoes{
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 420px;
+}
+
+footer{
+    height: 300px;
+    background-color: #F4A4BF;
+}
+
+.link-logar{
+    color: white;
+    text-decoration: none;
+}
