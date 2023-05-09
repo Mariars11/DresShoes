@@ -1,3 +1,15 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: inherit;
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding-bottom: 8.84rem;
+}
 .bg-light{
     background-color: #B63E52!important;
 }
@@ -10,6 +22,7 @@
     display:flex;
     gap: 15px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .card-img-top{
@@ -17,11 +30,19 @@
 }
 
 footer{
-    height: 300px;
+    height: 150px;
     background-color: #F4A4BF;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 15px;
 }
 
 .link-logar{
     color: white;
     text-decoration: none;
+}
+h1{
+    text-indent: 22%;
 }
