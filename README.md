@@ -1,12 +1,12 @@
 # Projeto Dresshoes
 
 ## Inspiração
-    - NetShoes
+- NetShoes
 
 ## Ferramentas
-    - VsCode
-    - Figma
-    - Miro
+- VsCode
+- Figma
+- Miro
 
 ## Componentes
-    - Bootstrap
+- Bootstrap
