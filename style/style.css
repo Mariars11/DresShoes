@@ -46,3 +46,8 @@ footer{
 h1{
     text-indent: 22%;
 }
+
+.cadastroVendedor{
+    display: flex;
+    flex-direction: column;
+}
