@@ -31,7 +31,7 @@ body{
 
 footer{
     height: 150px;
-    background-color: #F4A4BF;
+    background-color: #B63E52;
     position: absolute;
     right: 0;
     left: 0;
@@ -59,4 +59,25 @@ h1{
 
 .banner{
     width: 100%;
+}
+
+.p-about{
+    width: 30%;
+    margin-left: 15px;
+}
+
+.div-about{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.h1-about{
+    text-indent: 0;
+}
+
+.a-sobreNos{
+    color: white;
+    text-decoration: none;;
 }
