@@ -81,3 +81,11 @@ h1{
     color: white;
     text-decoration: none;;
 }
+.card-text{
+    text-decoration: none;
+}
+.body-shoe {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
