@@ -50,7 +50,57 @@
           </div>
         </nav>
       </header>
+      <div class="modal fade" id="editar" tabindex="-1" aria-labelledby="editarLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Título</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Preço</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputPassword">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button>Salvar</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <h1>Meus Items</h1>
+      <div id="myItems" class="items-products">
+        <div>
+          <img src="../../imgs/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg" class="img-product">
+          <div>
+            <button data-bs-toggle="modal" data-bs-target="#editar">Editar</button>
+            <button>Excluir</button>
+          </div>
+        </div>
+        <div>
+          <img src="../../imgs/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg" class="img-product">
+          <div>
+            <button data-bs-toggle="modal" data-bs-target="#editar">Editar</button>
+            <button>Excluir</button>
+          </div>
+        </div>
+        <div>
+          <img src="../../imgs/domino-164_6wVEHfI-unsplash.jpg" class="img-product">
+          <div>
+            <button data-bs-toggle="modal" data-bs-target="#editar">Editar</button>
+            <button>Excluir</button>
+          </div>
+        </div>
+      </div>
       <footer>
         <img src="/imgs/Logo.png"/>
       </footer>

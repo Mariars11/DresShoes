@@ -57,6 +57,11 @@ h1{
     width: 200px;
 }
 
+.img-product{
+    height: 450px;
+    width: 300px;
+}
+
 .banner{
     width: 100%;
 }
@@ -89,22 +94,22 @@ h1{
     justify-content: center;
     align-items: baseline;
 }
-table thead th{
+.admin-tablethead th{
     background-color: #383838;
     color: white;
 }
-table tbody tr:hover td{
+.admin-table tbody tr:hover td{
     background-color: gray;
     cursor: pointer;
 }
-table tbody tr:nth-child(even){
+.admin-table tbody tr:nth-child(even){
     background-color: #F4A4BF;
 }
-table{
+.admin-table, .myStore-tb{
     margin: 0 auto;
     min-width: 750px;
     text-align: center;
-    border: black;
+    border: solid 1px black;
 }
 .total-users{
     background-color: #D9A69C;
@@ -114,6 +119,48 @@ table{
     width: 10rem;
     padding: 5px;
 }
-.body-carrinho{
+.body-carrinho {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.items-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+.welcome{
+    color: white;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+.text-carrinho{
+    text-indent: 0;
+}
+textarea{
+    max-height: 300px;
+}
+.div-faturamento{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.total-faturado{
+    background-color: rgba(255, 88, 88, 0.64);
+    border: solid 1px black;
+    height: fit-content;
+    border-radius: 15px;
+    width: 225px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#myItems{
+    margin-bottom: 50px;
+}
+.myStore-a{
+    text-decoration: none!important; 
+    color: black;
 }
