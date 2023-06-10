@@ -11,6 +11,39 @@
 </head>
 <body>
     <header>
+      <div class="modal fade" id="editar" tabindex="-1" aria-labelledby="editarLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Nome</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Status</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Ultima Atividade</label>
+                <div class="col-sm-10">
+                  <input type="datetime-local" class="form-control" id="inputPassword">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info">Salvar</button>
+            </div>
+          </div>
+        </div>
+      </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a href="/pages/index.html">
@@ -50,7 +83,7 @@
           </div>
         </nav>
       </header>
-      <h1>Painel de Controle</h1>
+      <h1>Controle de Vendas</h1>
       <table class="admin-table">
         <thead>
           <th>Nome</th>
@@ -64,7 +97,7 @@
             <td>Enviado</td>
             <td>30 de maio de 2023</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
           <tr>
@@ -72,7 +105,7 @@
             <td>Pago</td>
             <td>30 de maio de 2023</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
           <tr>
@@ -80,7 +113,7 @@
             <td>Solicitado</td>
             <td>30 de maio de 2023</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
           <tr>
@@ -88,7 +121,7 @@
             <td>Pago</td>
             <td>15 de maio de 2023</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
           <tr>
@@ -96,7 +129,7 @@
             <td>Entregue</td>
             <td>2 de abril de 2023</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
           <tr>
@@ -104,7 +137,7 @@
             <td>Solicitado</td>
             <td>28 de março de 2022</td>
             <td>
-              <button>Editar</button>
+              <button data-bs-toggle="modal" class="btn btn-info btn-sm" data-bs-target="#editar">Editar</button>
             </td>
           </tr>
         </tbody>

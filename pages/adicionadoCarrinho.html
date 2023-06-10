@@ -40,22 +40,31 @@
           </div>
         </nav>
       </header>
-      <h1>Finalizar compra</h1>
-      <div>
+      <div class="add_div">
+        <h1>Finalizar compra</h1>
         <h2>Resumo do Pedido</h2>
         <p> Tenis {Nome.Produto}</p>
         <p>R$ 200,00</p>
         <p>Entrega Grátis</p>
         <p>Total: R$ 200,00 <sup>Até 4 vezes sem juros</sup></p>
       </div>
-      <div>
+      <div class="add_div">
         <h4>Dados pessoais conforme o cadastro</h4>
-        <label>Como prefere pagar?</label> <br>
-        <input type="radio" name="pagamento"> <label>Pix</label>
-        <input type="radio" name="pagamento"> <label>Boleto</label>
-        <input type="radio" name="pagamento"> <label>Cartão</label> 
-      </div>
+        <h6>Como prefere pagar?</h6> <br>
+        <div>
+          <input type="radio" name="pagamento"> 
+          <label>Pix</label>
+        </div>
+        <div>
+          <input type="radio" name="pagamento"> 
+          <label>Boleto</label>
+        </div>
+        <div>
+          <input type="radio" name="pagamento"> 
+          <label>Cartão</label>
+        </div>
         <button><a href="./finalizar.html">Finalizar</a></button>
+      </div>
       <footer>
         <img src="/imgs/Logo.png"/>
       </footer>

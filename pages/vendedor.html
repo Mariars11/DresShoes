@@ -47,14 +47,16 @@
           </div>
         </nav>
       </header>
-      <h2>Adicione o produto para venda:</h2>
-      <div>
+      <div class="add_div">
+        <div>
+          <h2>Adicione o produto para venda:</h2>
+        </div>
         <form>
-          <div>
+          <div class="form-group">
             <label>Título</label>
-            <input type="text" placeholder="Título">
+            <input class="form-control" type="text" placeholder="Título">
           </div>
-          <div>
+          <div class="form-group">
             <h6>Estado:</h6>
             <input type="radio" name="estado">
             <label>Na caixa</label>
@@ -63,20 +65,21 @@
             <input type="radio" name="estado">
             <label>Usado</label>
           </div>
-          <div>
+          <div class="form-group">
             <label>Preço</label>
-            <input type="text"  placeholder="Preço">
+            <input class="form-control" type="text"  placeholder="Preço">
           </div>
-          <div>
+          <div class="form-group">
             <label>Descrição:</label><br>
-            <textarea placeholder="Descrição"></textarea>
+            <textarea class="form-control" placeholder="Descrição"></textarea>
           </div>
-          <div>
+          <div class="form-group">
             <h6>Selecione uma foto</h6>
-            <input type="file">
+            <input class="form-control" type="file">
           </div>
-          <div>
-            <button type="submit">Adicionar</button>
+          <div id="btns-add" class="form-group">
+            <button type="reset" class="btn btn-info btn-sm">Limpar</button>
+            <button type="submit" class="btn btn-dark btn-sm">Adicionar</button>
           </div>
         </form>
       </div>
