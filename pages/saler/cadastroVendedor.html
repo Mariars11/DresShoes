@@ -27,48 +27,51 @@
           </div>
         </nav>
       </header>
-      <h1>Cadastro de Vendedor</h1>
-      
       <div class="cadastroVendedor">
+        <div>
+          <h1>Cadastro de Vendedor</h1>
+        </div>
         <form>
           <fieldset>
             <legend>Informações Pessoais:</legend>
-            <div>
-                <label>Nome: </label> 
-                <input type="text" placeholder="nome"/>
-            </div>
-            <div>
-                <label>E-mail: </label>
-                <input type="email" placeholder="e-mail"/>
-            </div>
-            <div>
-              <label>Endereço: </label> 
-              <input type="text" placeholder="Endereço"/>
-          </div>
-          <div>
-            <label>Telefone: </label> 
-            <input type="number" placeholder="(DDD)9xxxx-xxxx"/>
-        </div>
-        <div>
-          <label>Senha: </label> 
-          <input type="password" placeholder="Senha"/>
-          <label>Confirme a senha: </label> 
-          <input type="password"  placeholder="Confirmar"/>
-      </div>
-      <legend>Dados financeiros</legend>
-      <div>
-        <h6>Como deseja receber o valor de suas vendas?</h6>
-        <input type="radio" name="getVendas"><label>Receber à vista</label>
-        <input type="radio" name="getVendas"><label>Receber parcelado</label>
-      </div>
-      <div>
-        <h6>Com que frequencia deseja receber o valor de suas vendas?</h6>
-        <input type="radio" name="frequencia"><label>Semanal</label>
-        <input type="radio" name="frequencia"><label>Mensal</label>
-      </div>
-            <button type="button" class="btn btn-primary">
-                <a class="link-logar" href="/pages/vendedor.html">Salvar</a>
-            </button>
+              <div class="form-group">
+                  <label>Nome: </label> 
+                  <input class="form-control" class="form-control" type="text" placeholder="Nome"/>
+              </div>
+              <div class="form-group">
+                  <label>E-mail: </label>
+                  <input class="form-control" type="email" placeholder="E-mail"/>
+              </div>
+              <div class="form-group">
+                <label>Endereço: </label> 
+                <input class="form-control" type="text" placeholder="Endereço"/>
+              </div>
+              <div class="form-group">
+                <label>Telefone: </label> 
+                <input class="form-control" type="number" placeholder="(DDD)9xxxx-xxxx"/>
+              </div>
+              <div class="form-group">
+                <label>Senha: </label> 
+                <input class="form-control" type="password" placeholder="Senha"/>
+                <label>Confirme a senha: </label> 
+                <input class="form-control" type="password"  placeholder="Confirmar"/>
+              </div>
+            <legend>Dados financeiros</legend>
+              <div class="form-group">
+                <h6>Como deseja receber o valor de suas vendas?</h6>
+                <input type="radio" name="getVendas"><label>Receber à vista</label>
+                <input type="radio" name="getVendas"><label>Receber parcelado</label>
+              </div>
+              <div class="form-group">
+                <h6>Com que frequencia deseja receber o valor de suas vendas?</h6>
+                <input type="radio" name="frequencia"><label>Semanal</label>
+                <input type="radio" name="frequencia"><label>Mensal</label>
+              </div>
+              <div class="btn-save-myprofile">
+                <button type="button" class="btn btn-primary">
+                    <a class="link-logar" href="/pages/vendedor.html">Salvar</a>
+                </button>
+              </div>
           </fieldset>
         </form>
       </div>
