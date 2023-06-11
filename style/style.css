@@ -268,3 +268,7 @@ input[type="checkbox"]:checked + label:after {
 .users{
     margin: 15px;
 }
+.favs {
+    display: flex;
+    align-items: center;
+}
