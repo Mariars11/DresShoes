@@ -50,57 +50,65 @@
           </div>
         </nav>
       </header>
-      <h1>Minha Loja</h1>
-      <h2>Maria Clara</h2>
-      <div class="div-myStores">
-        <table >
-          <tbody>
-          <tr>
-            <td>
-              <a class="myStore-a" href="../carrinho.html">
-                <div>
-                  <h3>Meu Carrinho</h3>
-                </div>
-              </a>
-            </td>
-            <td>
-              <a class="myStore-a" href="./myStore.html">
-                <div>
-                  <h3>Minha Loja</h3>
-                </div>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a class="myStore-a" href="./myItems.html">
-                <div>
-                  <h3>Meus items</h3>
-                </div>
-              </a>
-            </td>
-            <td>
-              <a class="myStore-a" href="./myItems.html">
-                <div>
-                  <h3>Minhas Vendas</h3>
-                </div>
-              </a>
-            </td>
-          </tr>
-        </tbody>
-        </table>
-      </div>
-      <div>
-        <div>
-          <h4>Modificar senha</h4>
-          <input type="password" name="" id="">
-          <button>Modificar</button>
+      <div class="userAndMyStore">
+        <div class="profile">
+          <h1 class="change-color">Minha Loja</h1>
+          <img id="profile-pic" class="avatar avatar-96 bg-light rounded-circle text-white p-2" src="../../imgs/stefan-stefancik-QXevDflbl8A-unsplash.jpg">
+          <p class="txt-shoe" id="colorChange">Maria Clara</p>
+          <div>
+            <p  class="txt-shoe">mariaclara@admin.com.br</p>
+          </div>
         </div>
-        <div>
-          <h4>Excluir Conta</h4>
-          <button>Excluir</button>
+        <div class="div-myStores">
+          <table class="table-myStore">
+            <tbody>
+            <tr>
+              <td>
+                <a class="myStore-a" href="../carrinho.html">
+                  <div>
+                    <h3 class="change-color">Meu Carrinho</h3>
+                  </div>
+                </a>
+              </td>
+              <td>
+                <a class="myStore-a" href="./myStore.html">
+                  <div>
+                    <h3 class="change-color">Minha Loja</h3>
+                  </div>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a class="myStore-a" href="./myItems.html">
+                  <div>
+                    <h3 class="change-color">Meus items</h3>
+                  </div>
+                </a>
+              </td>
+              <td>
+                <a class="myStore-a" href="./myItems.html">
+                  <div>
+                    <h3 class="change-color">Minhas Vendas</h3>
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+          <div class="modifiedPass">
+            <div class="div-password">
+              <h4  class="change-color">Senha</h4>
+              <input class="form-control" type="password"  placeholder="Nova Senha" name="" id="">
+              <button type="button" class="btn btn-info btn-sm">Modificar</button>
+            </div>
+            <div class="div-password">
+              <h4  class="change-color">Excluir Conta</h4>
+              <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+            </div>
+          </div>
         </div>
-      </div>
+    </div>
       <footer>
         <img src="/imgs/Logo.png"/>
       </footer>

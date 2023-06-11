@@ -128,6 +128,7 @@ footer{
 .items-products{
     display: flex;
     justify-content: space-evenly;
+    gap: 45px;
 }
 .welcome{
     color: white;
@@ -271,4 +272,42 @@ input[type="checkbox"]:checked + label:after {
 .favs {
     display: flex;
     align-items: center;
+}
+.userAndMyStore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-password {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 7px;
+}
+.change-color{
+    color: #B63E52;
+}
+.table-myStore{
+    border: 1px solid #B63E52;
+    border-radius: 15px;
+    margin-bottom: 25%;
+    text-align: center;
+}
+table.table-myStore td {
+    border: 1px solid #B63E52;
+}
+#profile-pic{
+    width: 150px;
+    height: 150px;
+}
+#colorChange{
+    color: #B63E52;
+}
+.profile {
+    text-align: center;
+    margin-left: 15%;
+}
+.div-myStores {
+    margin-right: 10%;
+    margin-top: 15px;
 }
