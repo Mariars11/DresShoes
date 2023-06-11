@@ -130,10 +130,12 @@ footer{
     justify-content: space-evenly;
     gap: 45px;
 }
-.welcome{
+.welcome {
     color: white;
     font-weight: bolder;
     margin-right: 15px;
+    display: flex;
+    align-items: center;
 }
 .text-carrinho{
     text-indent: 0;
@@ -310,4 +312,8 @@ table.table-myStore td {
 .div-myStores {
     margin-right: 10%;
     margin-top: 15px;
+}
+img#nav-pic {
+    height: 65px;
+    width: 65px;
 }
